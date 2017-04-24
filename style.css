@@ -3,10 +3,12 @@ body{
 	background-color: #white;
 	font-family: Raleway;
 	font-size: 36px;
+	margin: auto;
+	padding: 0;
 }
-.content{
+.name{
 	max-width: 600px;
-	margin: 40px 20px 10px -75px;
+	margin: 50px 0px 0px 300px;
 	color: #ff6699
 }
 div.textContent{ 
@@ -14,21 +16,23 @@ div.textContent{
 }
 .animate{
 	max-width: 1500px;
-	margin: -85px -500px 10px 215px;
+	margin: -92px -3000px 0px 680px;
 	color: #6A8CB8;
 }
 .picture{
 	max-width: 600px;
-	margin: 40px 20px 0px 430px;
+	text-align: center;
+	display: block;
+	margin: auto;
 }
 ul {
     list-style-type: none;
-    margin-left: -440px;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: #6A8CB8;
     position: fixed;
-    bottom: -38px;
+    bottom: 0;
     width: 100%;
 }
 li {
@@ -38,7 +42,7 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
