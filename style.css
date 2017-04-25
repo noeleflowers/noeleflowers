@@ -34,6 +34,7 @@ ul {
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: white;
 }
 li {
     display: inline;
@@ -45,8 +46,36 @@ li a {
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
 }
 li a:hover {
 	background-color: #2D5487;
+}
+.content{
+	color: #ff6699;
+	margin: auto;
+	text-align: center;
+	max-width: 1000px;
+}
+a:link {
+    text-decoration: none;
+    color: #ff6699;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ff6699;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff1a66;
+}
+
+a:active {
+    text-decoration: none;
+    color: #ff1a66;
+}
+h2 {
+	font-size: 32px;
 }
